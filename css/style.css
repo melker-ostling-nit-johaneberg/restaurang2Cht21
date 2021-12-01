@@ -1,3 +1,67 @@
-body {
-  background:grey;
+:root{
+  --main_clr_dark:black;
+}
+
+
+#container{
+  background-image: url(../img/salt.jpg);
+  background-size: contain;
+  width: 100vw;
+  display: flex;
+  margin: 0px;
+  display: grid;
+  height: auto;
+  grid-template-rows: 10vh 85vH 80vh;
+  grid-template-areas: 
+  'hd hd'
+  'a1 a1'
+  'a2 a2';
+
+}
+
+.header{
+
+  grid-area: hd;
+    display: flex;
+  justify-content: center;
+}
+
+#img1{
+
+}
+
+.nav{
+
+  grid-area: nv;
+  justify-content: center;
+  width: 60%;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+li{
+
+  color: white;
+
+  margin: 0px 30px;
+}
+#article1{
+  grid-area: a1;
+}
+
+#article2{
+background-color:black;
+grid-area: a2;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  color: white;
 }
