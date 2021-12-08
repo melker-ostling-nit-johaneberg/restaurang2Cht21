@@ -2,11 +2,10 @@
   --main_clr_dark:black;
 }
 
-
 #container{
-  background-image: url(../img/salt.jpg);
+  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash\ \(1\).jpg);
   background-size: contain;
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin: 0px;
   display: grid;
@@ -20,21 +19,31 @@
 }
 
 .header{
-
+  background-color: black;
   grid-area: hd;
-    display: flex;
-  justify-content: center;
+  display: flex;
+  justify-content: left;
+  margin: 0%;
+
 }
 
 #img1{
+  justify-content: left;
+  position: sticky;
+  margin: 10px;
 
 }
 
-.nav{
+#rubrik{
+  grid-area: a1;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align: center;
+}
 
-  grid-area: nv;
+.nav{
   justify-content: center;
-  width: 60%;
+  width: 80%;
 }
 ul{
   list-style: none;
@@ -47,9 +56,6 @@ li{
   color: white;
 
   margin: 0px 30px;
-}
-#article1{
-  grid-area: a1;
 }
 
 #article2{
