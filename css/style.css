@@ -1,16 +1,19 @@
 :root{
   --main_clr_dark:black;
+  --main_clr_white: white;
+  --main_accent_clr: lightgrey;
 }
 
 #container{
-  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash\ \(1\).jpg);
+  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
   background-size: contain;
+  max-zoom: 100%;
   width: 100%;
   display: flex;
   margin: 0px;
   display: grid;
   height: auto;
-  grid-template-rows: 10vh 85vH 80vh;
+  grid-template-rows: 10vh 90vH 100vh;
   grid-template-areas: 
   'hd hd'
   'a1 a1'
@@ -19,11 +22,12 @@
 }
 
 .header{
-  background-color: black;
+  background-color: var(--main_clr_dark);
   grid-area: hd;
   display: flex;
   justify-content: left;
   margin: 0%;
+
 
 }
 
@@ -31,44 +35,62 @@
   justify-content: left;
   position: sticky;
   margin: 10px;
-
 }
 
+
 #rubrik{
+  display: flex;
   grid-area: a1;
   justify-content: space-around;
-  align-items: baseline;
-  text-align: center;
+  align-items: center;
+  font-size: 60px;
 }
 
 .nav{
   justify-content: center;
   align-items: center;
   width: 80%;
+  height: 100%;
 }
 ul{
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 20px;
+  padding: auto;
 }
 li{
-
-  color: white;
-
+  color: var(--main_clr_white);
   margin: 0px 30px;
 }
 
 #article2{
-background-color:black;
+background-color: var(--main_clr_dark);
 grid-area: a2;
-}
+display: flex;
+width: 100vw;
+display: grid;
 
+}
+.text1{
+  grid-area: tx;
+  font-size: 70px;
+}
 a{
-  color: white;
+  color: var(--main_clr_white);
   text-decoration: none;
 }
-
+a:hover{
+  color: var(--main_accent_clr); 
+}
 h1{
-  color: white;
+  color: var(--main_clr_white);
+}
+
+p{
+  color: var(--main_clr_white);
 }
