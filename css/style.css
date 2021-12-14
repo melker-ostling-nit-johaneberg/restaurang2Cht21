@@ -5,10 +5,19 @@
 }
 
 #container{
-  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
-  background-size: contain;
-  max-zoom: 100%;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  margin: 0px;
+  display: grid;
+  height: auto;
+  grid-template-rows: 10vh 90vH 100vh;
+  grid-template-areas: 
+  'hd hd'
+  'r1 r1'
+  'a2 a2';
+}
+#container2{
+  width: 100vw;
   display: flex;
   margin: 0px;
   display: grid;
@@ -18,7 +27,18 @@
   'hd hd'
   'a1 a1'
   'a2 a2';
-
+}
+#container3{
+  width: 100vw;
+  display: flex;
+  margin: 0px;
+  display: grid;
+  height: auto;
+  grid-template-rows: 10vh 90vH 100vh;
+  grid-template-areas: 
+  'hd hd'
+  'r3 r3'
+  'a2 a2';
 }
 
 .header{
@@ -30,17 +50,56 @@
 
 
 }
+#article1{
+  background-image: url(../img/rajat-sarki-nnNCCQfSNsc-unsplash.jpg);
+  background-size: cover;
+  margin: 0%;
+  grid-area: a1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  'mn di';
 
+
+}
+#meny{
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  grid-area: mn;
+  margin: 8%;
+}
+#div1{
+  grid-area: di;
+}
 #img1{
   justify-content: left;
   position: sticky;
   margin: 10px;
 }
-
-
-#rubrik{
+#rubrik3{
+  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
+  background-size: cover;
+  margin: 0%;
+  padding: 10% 0%;
+  width: auto;
   display: flex;
-  grid-area: a1;
+  grid-area: r3;
+  justify-content: center;
+  align-items: top;
+  font-size: 60px;
+}
+
+.rubrik{
+  background-image: url(../img/pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
+  background-size: cover;
+  margin: 0%;
+  width: 100%;
+  display: flex;
+  grid-area: r1;
   justify-content: space-around;
   align-items: center;
   font-size: 60px;
@@ -72,7 +131,7 @@ li{
 background-color: var(--main_clr_dark);
 grid-area: a2;
 display: flex;
-width: 100vw;
+width: 100%;
 display: grid;
 
 }
