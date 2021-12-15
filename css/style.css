@@ -67,15 +67,16 @@
   'mn di';
 }
 #article3{
-  background-color: var(--main_clr_dark);
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) ),url(../img/dim-hou-N17NO8OX83Y-unsplash.jpg);
+  background-position: bottom;
   margin: 0%;
   justify-content: center;
-  align-items: top;
+  align-items: center;
   grid-area: a3;
   display: flex;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 45vh 45vh;
+  grid-template-rows: 75vh 45vh;
   grid-template-areas: 
   'p1 p2'
   'p3 p3';
@@ -98,17 +99,26 @@
 }
 #gmap_canvas{
   grid-area: p3;
-  width: 100vw;
-  height: 45vh;
+  width: 90vw;
+  height: 40vh;
+  margin: 2.5px 5vw;
 }
-#quote{
+#about{
+    position: absolute;
+    width: 10vw;
+    margin: 2vh 0px 80vh 45vw;
+    text-align: center;
+    font-size: 50px;
+}
+.quote{
   grid-area: p2;
   color: var(--main_clr_white);
+  margin: 2.5vh 5vw;
 }
 #img3{
   grid-area: p1;
-  height: 40vh;
-  margin: 2.5vh 0px;
+  width: 30vw;
+  margin: 2.5vh 5vw 0px 5vw;
 }
 #rubrik2{
   position: absolute;
