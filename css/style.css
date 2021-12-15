@@ -114,6 +114,7 @@
   grid-area: p2;
   color: var(--main_clr_white);
   margin: 2.5vh 5vw;
+  font-family: 'Nanum Myeongjo', serif;
 }
 #img3{
   grid-area: p1;
@@ -126,6 +127,7 @@
   margin: 2vh 0px 0px 45vw;
   text-align: center;
   font-size: 50px;
+  font-family: 'Cormorant Garamond', serif;
 
 }
 #rubrik3{
@@ -139,6 +141,7 @@
   justify-content: center;
   align-items: top;
   font-size: 60px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .rubrik{
@@ -151,6 +154,8 @@
   justify-content: space-around;
   align-items: center;
   font-size: 60px;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .nav{
@@ -186,6 +191,7 @@ display: grid;
 .text1{
   grid-area: tx;
   font-size: 70px;
+  font-family: 'Luxurious Script', cursive;
 }
 a{
   color: var(--main_clr_white);
